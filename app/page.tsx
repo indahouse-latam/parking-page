@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
 
         {/* Image with glass geometric shape */}
-        <div className="relative mb-4 sm:mb-6 md:mb-8 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto w-full px-2 sm:px-4">
+        <div className="relative mb-4 sm:mb-6 md:mb-8 max-w-[300px] md:max-w-lg lg:max-w-xl mx-auto w-full px-2 sm:px-4">
           {/* Glass geometric shape - círculo */}
           <div className="absolute -right-2 sm:-right-4 md:-right-6 top-1/4 w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 backdrop-blur-md bg-gradient-to-br from-[#32E0E1]/20 to-[#4A3AFF]/20 rounded-full border border-white/30 shadow-2xl z-10"></div>
 
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         {/* Description text with better contrast */}
-        <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 md:mb-10 max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl mx-auto font-medium leading-relaxed px-2 sm:px-4 drop-shadow-lg">
+        <p className="text-white mt-4! text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 md:mb-10 max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl mx-auto font-medium leading-relaxed px-2 sm:px-4 drop-shadow-lg">
           Expandimos nuestros horizontes para ofrecerte las mejores oportunidades inmobiliarias a nivel mundial.
         </p>
 
